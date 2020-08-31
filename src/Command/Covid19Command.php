@@ -9,7 +9,7 @@ use Spatie\Emoji\Emoji;
 
 class Covid19Command
 {
-    const GET_SUMMARY_KEYWORD = 'covid19_summary';
+    const GET_SUMMARY_KEYWORD = '/info';
 
     private $covid19Api;
 
